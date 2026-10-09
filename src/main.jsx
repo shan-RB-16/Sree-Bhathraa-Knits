@@ -1,0 +1,18 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { LangProvider } from './i18n.jsx';
+import App from './App.jsx';
+import Admin from './Admin.jsx';
+import './styles.css';
+
+createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <LangProvider>
+      <Routes>
+        <Route path="/admin" element={<Admin />} />
+        <Route path="*" element={<App />} />
+      </Routes>
+    </LangProvider>
+  </BrowserRouter>
+);
