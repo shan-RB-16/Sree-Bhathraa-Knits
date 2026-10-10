@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useLang, LANGS, T } from './i18n.jsx';
 
 const WA = '918525958828';
-const PHONES = ['9842280399', '8525958828'];
+const PHONES = ['9842280399','9360516655', '8525958828'];
 const EMAIL = 'sreebhathraaknits@gmail.com';
 const GST = '33AHEPR7219M2ZY';
 const MAP = 'https://maps.google.com/maps?q=11.1124066,77.3433217&z=16&output=embed';
